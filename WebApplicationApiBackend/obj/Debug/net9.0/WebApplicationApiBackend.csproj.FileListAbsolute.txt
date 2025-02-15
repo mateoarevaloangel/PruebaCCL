@@ -34,3 +34,8 @@ C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend
 C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\obj\Debug\net9.0\WebApplicationApiBackend.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\obj\Debug\net9.0\ref\WebApplicationApiBackend.dll
 C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\Scalar.AspNetCore.dll
+C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\danie\OneDrive\Documentos\dev\GitHub\PruebaCCL\WebApplicationApiBackend\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
