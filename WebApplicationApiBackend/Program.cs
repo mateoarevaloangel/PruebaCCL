@@ -1,4 +1,7 @@
+using Core.Interfaces;
+using Infrastructure.Repositories;
 using Scalar.AspNetCore;
+using WebApplicationApiBackend;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+//builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddAppDI(builder.Configuration);
 
 var app = builder.Build();
 

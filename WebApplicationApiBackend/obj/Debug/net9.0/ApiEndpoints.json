@@ -52,6 +52,32 @@
     ]
   },
   {
+    "ContainingType": "WebApplicationApiBackend.Controllers.ProductController",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Core.Entities.ProductEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationApiBackend.Controllers.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/Product/AllProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplicationApiBackend.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
