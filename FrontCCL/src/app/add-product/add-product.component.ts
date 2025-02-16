@@ -43,7 +43,7 @@ export class AddProductComponent {
    })
   }
   cancelar(){
-
+    this.router.navigate(['product'])
   }
 
 }
