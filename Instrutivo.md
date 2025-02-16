@@ -10,3 +10,4 @@ CREATE TABLE IF NOT EXISTS public.product
 3. ejecutar el la solucion PruebaCCL\WebApplicationApiBackend\WebApplicationApiBackend.sln
 4.Estando en la carpeta PruebaCCL\FrontCCL ejecutar el comando npm start
 5.Para hacer el login nombre del usurio por defecto es "Danie"l clave "123"
+6.En caso de qeu cambie el puerto deonde corre el front cambiar el archivo PruebaCCL\WebApplicationApiBackend\Program.cs y cambiar "http://localhost:4200" por el respectivo puerto
