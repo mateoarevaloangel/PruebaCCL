@@ -1,4 +1,5 @@
 ﻿using Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -67,6 +68,8 @@ namespace WebApplicationApiBackend.Controllers
             //CREATE CREDENTIAL
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
             //create toeken and configuration 
+            var isuerPrueba = configuration.GetValue<string>("AppSetting:Issuer");
+            var audiencePrueba = configuration.GetValue<string>("AppSetting:Audience");
             var token = new JwtSecurityToken(
                 issuer: configuration.GetValue<string>("AppSetting:Issuer"),
                 audience: configuration.GetValue<string>("AppSetting:Audience"),
@@ -75,6 +78,12 @@ namespace WebApplicationApiBackend.Controllers
                 signingCredentials: creds
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        [Authorize]
+        [HttpGet]
+        public IActionResult AuthenticationPoint()
+        {
+            return Ok("good authenticate");
         }
     }
 }
