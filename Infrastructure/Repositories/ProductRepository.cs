@@ -20,7 +20,7 @@ namespace Infrastructure.Repositories
         {
             //product.idproduct = Guid.NewGuid();
             dbContext.Products.Add(product);
-            
+            await dbContext.SaveChangesAsync();
             return product;
         }
         //create update
